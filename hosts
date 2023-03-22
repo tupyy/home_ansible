@@ -1,2 +1,4 @@
-[home]
-fedorasrv ansible_become_password="{{ become_pwd }}"
+home:
+    hosts:
+        fedorasrv: 
+        fedorasrv2:

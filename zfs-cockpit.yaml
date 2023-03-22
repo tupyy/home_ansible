@@ -1,8 +1,0 @@
----
-- hosts: fedorasrv
-  become: yes
-  tasks:
-    - name: install cockpit zfs manager
-      copy:
-        src: ~/tmp/cockpit-zfs-manager/zfs
-        dest: /usr/share/cockpit
